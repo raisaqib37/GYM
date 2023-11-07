@@ -1,0 +1,37 @@
+ @import url("https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  font-family: "Heebo", sans-serif;
+}
+
+@media screen and (min-width: 360px) {
+  .text{
+    margin-left: 0.6rem;
+  }
+  .icons{
+    margin-left: 10.1rem;
+  }
+.drawer{
+  position: absolute;
+  margin-left: 7.4rem;
+  margin-top: 23rem;
+}
+}
+@media screen and (min-width: 1280px) {
+  .heading {
+    margin-left: 2.63rem;
+  }
+}
+.image{
+  transform: scale(160%);
+}
+.line{
+  height: 1px;
+  background-color: black;
+  margin-top: 18px;
+}
+.line2{
+  height: 1px;
+  background-color: white;
+  margin: 3rem 5rem ;
+}
